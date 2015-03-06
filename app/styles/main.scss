@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: grey;
+}
+
+.nav_bar {
+  background: -webkit-linear-gradient(#F25E60, #DB4C4E); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#F25E60, #DB4C4E); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#F25E60, #DB4C4E); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#F25E60, #DB4C4E); /* Standard syntax */
+  background-color: #DB4C4E;
+  height: 35px;
+  padding: 10px;
+  display: relative;
+}
+
+h1 {
+  float: left;
+  margin-top: 0px;
+  font-family: ubuntu;
+  font-weight: 800;
+  letter-spacing: 5px;
+  color: white;
+}
+
+form {
+  float: right;
+  padding-top: 4px;
+
+  label {
+    font-family: helvetica;
+    color: white;
+    font-weight: 100;
+    margin-left: 5px;
+  }
+
+  input {
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 10px;
+  }
+
+  #loginButton, #registerButton {
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background-color: white;
+    font-size: 12px;
+    color: #DB4C4E
+  }
+}
+

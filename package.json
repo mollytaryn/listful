@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "hhttps://github.com/mollytaryn/listful"
+    "url": "https://github.com/mollytaryn/listful"
   },
-  "author": "Molly Black <mollytaryn@gmail.com>,"
+  "author": "Molly Black <mollytaryn@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mollytaryn/listful/issues"
