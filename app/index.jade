@@ -12,13 +12,14 @@ html(lang='en-US')
 
       .nav_bar
         h1 listful
-        form
+        form(action='#')
           label(for="loginEmail") Email
-          input(type="email", id="loginEmail", required)
+          input(type="email", id="loginEmail")
           label(for="loginPassword") Password
-          input(type="password", id="loginPassword" required)
-          input(type="submit" id="loginButton" value="Login")
-          input(type="submit" id="registerButton" value="Register")
+          input(type="password", id="loginPassword")
+          input(type="button", id="loginButton", value="Login")
+          input(type="button", id="registerButton", value="Register")
+          .error
 
 
 
@@ -30,6 +31,8 @@ html(lang='en-US')
       // endbuild
 
       // build:js js/main.min.js
-      script(src="../bower_components/angular/angular.min.js")
+      //- script(src="../bower_components/angular/angular.min.js")
+      script(src="../bower_components/firebase/firebase.js")
+      script(src="../bower_components/jquery/dist/jquery.min.js")
       script(src="/scripts/index.js")
       // endbuild
