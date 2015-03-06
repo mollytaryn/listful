@@ -33,6 +33,7 @@
         $('.error').text(err);
       } else {
         location.reload(true);
+        $('.login.').hide();
       }
     });
   });
@@ -53,3 +54,16 @@
       }
     });
   }
+
+  // function logout {
+  //   if (fb.getAuth()) {
+  //     $('.login').hide();
+  //   } else {
+  //     $('.logout').hide();
+  //   }
+  // }
+
+  //LOGOUT FUNCTION//
+  $('#logoutButton').click(function() {
+    fb.unauth();
+  });

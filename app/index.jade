@@ -8,18 +8,28 @@ html(lang='en-US')
     link(rel='stylesheet', href='css/main.css')
     link(href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css')
   body
-      <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-      .nav_bar
-        h1 listful
-        form(action='#')
-          label(for="loginEmail") Email
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    .nav_bar
+      h1 listful
+      form(action='#')
+        .login
+          label(for="loginEmail") email
           input(type="email", id="loginEmail")
-          label(for="loginPassword") Password
+          label(for="loginPassword") password
           input(type="password", id="loginPassword")
-          input(type="button", id="loginButton", value="Login")
-          input(type="button", id="registerButton", value="Register")
+          input(type="button", id="loginButton", value="login")
+          input(type="button", id="registerButton", value="register")
           .error
+        .logout
+          //- input(type="button" id="logoutButton" value ="Log Out")
+    .listBody
+      .addListItem
+        form(action='#')
+          label(for="addButton") create new list
+          input(type="button", id="addButton" value="+")
+      .listItems
+
+
 
 
 

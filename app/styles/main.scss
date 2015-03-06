@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: grey;
 }
 
 .nav_bar {
@@ -41,7 +40,7 @@ form {
     padding: 7px 10px;
   }
 
-  #loginButton, #registerButton {
+  #loginButton, #registerButton, #logoutButton {
     width: 80px;
     border: none;
     border-radius: 5px;
@@ -52,3 +51,41 @@ form {
   }
 }
 
+#addButton {
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+  background-color: white;
+  font-size: 12px;
+  color: #DB4C4E
+}
+
+
+.listBody {
+  background-color: #DB4C4E;
+  max-width: 90%;
+  margin: auto;
+  height: 600px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+}
+
+.addListItem {
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-right: 20px;
+  font-family: ubuntu;
+  color: white;
+  font-weight: 400;
+}
+
+.listItems {
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  height: 520px;
+  max-width: 89%;
+  border-radius: 8px;
+  margin-top: 40px;
+}
