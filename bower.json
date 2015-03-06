@@ -1,0 +1,22 @@
+{
+  "name": "exandoh",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mollytaryn/listful",
+  "authors": [
+    "Molly Black <mollytaryn@gmail.com>"
+  ],
+  "description": "A list-making app",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "~2.2.1",
+    "jquery": "~2.1.3",
+    "lodash": "~3.3.1",
+  }
+}
